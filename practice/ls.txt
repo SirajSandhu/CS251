@@ -1,0 +1,11 @@
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  792 Apr  9 10:24 basics.m
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  618 Apr  9 11:00 control_and_functions.m
+-rw-rw-r-- 1 sirajsandhu sirajsandhu 6451 Apr  9 10:41 fig1.pdf
+-rw-rw-r-- 1 sirajsandhu sirajsandhu 1933 Apr  9 09:31 fig1.tex
+-rw-rw-r-- 1 sirajsandhu sirajsandhu 6070 Apr  9 10:41 fig2.pdf
+-rw-rw-r-- 1 sirajsandhu sirajsandhu 5632 Apr  9 10:41 fig3.pdf
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  154 Apr  9 10:55 file_ops.m
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  717 Apr  9 08:57 input.dat
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  718 Apr  9 10:33 input.mat
+-rw-rw-r-- 1 sirajsandhu sirajsandhu 1008 Apr  9 10:34 output.mat
+-rw-rw-r-- 1 sirajsandhu sirajsandhu  312 Apr  9 10:41 plots.m
