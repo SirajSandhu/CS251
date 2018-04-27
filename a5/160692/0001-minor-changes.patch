@@ -1,0 +1,29 @@
+From 49cc4241505cd7426404fd982914de618b2e0946 Mon Sep 17 00:00:00 2001
+From: SirajSandhu <sirajsandhu179@gmail.com>
+Date: Mon, 5 Mar 2018 02:58:25 +0530
+Subject: [PATCH] minor changes
+
+---
+ hello.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/hello.c b/hello.c
+index f7d4792..fd0973e 100644
+--- a/hello.c
++++ b/hello.c
+@@ -3,9 +3,9 @@
+ void microkernel_sendmsg(char *);
+ 
+ void main() {
+-	printf("Helloworld!\n");
+-	printf("This must be a monolithic design\n");
+-	microkernel_sendmsg("is more portable");
++	printf("The name is Bond, James Bond.\n");
++	printf("Double-O Section of the SIS\n");
++	microkernel_sendmsg("Special Intelligence Service");
+ }
+ 
+ void microkernel_sendmsg(char *a) {
+-- 
+2.9.3
+

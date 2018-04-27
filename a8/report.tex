@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\title{CS251}
+\author{Siraj Singh Sandhu}
+\date{25 March 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Scatter Plot}
+
+\subsection*{Numbere of Threads = 1}
+\includegraphics{scatter_1.eps}\newline
+In this case time increases as number of inputs increases almost proportianally. Note that both the axes are logarithmic. So even a small change in the graph may be large in reality as the variation is exponential.
+This same holds for all the other scatter plots as well.
+\newpage
+\subsection*{Numbere of Threads = 2}
+\includegraphics{scatter_2.eps}\newline
+In this case time increases as number of inputs increases almost proportianally.
+\newpage
+\subsection*{Numbere of Threads = 4}
+
+\includegraphics{scatter_4.eps}\newline
+The slope of the graph in this case is less as compared to the first two cases. 
+\newpage
+\subsection*{Numbere of Threads = 8}
+\includegraphics{scatter_8.eps}\newline
+The slope decrease further in this case
+\newpage 
+\subsection*{Numbere of Threads = 16}.
+
+\includegraphics{scatter_16.eps}\newline
+This one has the least slope among all. Also the expected time for computing the maximum number should be least in this case.
+\newpage 
+\section{Line Plot}
+
+\includegraphics{lineplot.eps}\newline 
+This again shows that average time increases as the number of inputs increase. Also on larger inputs more the number of threads lesser is the time. But time doesn't decrease beyond a certain limit.
+\newpage 
+
+\section{Bar graph}
+\includegraphics{speedup.eps}\newline 
+This again is a demonstration of how time decreases for a given number of inputs and increase as number of input increases.
+\newpage 
+\section{Bar graph with errors}
+\includegraphics{speedup_errorbar.eps}\newline
+Broadly the variance decreases as the number of input increases and in general is more when number of threads are more.
+
+\end{document}
